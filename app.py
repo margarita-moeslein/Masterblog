@@ -27,7 +27,7 @@ def add():
     return render_template('add.html')
 
 
-@app.route('/delete/<int:post_id>', methods=['POST'])
+@app.route('/delete/<int:post_id>')
 def delete(post_id):
     delete_post(post_id)
     return redirect(url_for('index'))
