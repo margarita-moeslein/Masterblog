@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF2EB;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4F4F4F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.post {
+    background-color: #FFE8CD;
+    border: 1px solid #DDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #3A2C1C;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+button,
+.button-link {
+    background-color: #FFD6BA;
+    color: #3A2C1C;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+button:hover,
+.button-link:hover {
+    background-color: #FFDCDC;
+    transform: scale(1.03);
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    background-color: #FFF2EB;
+}
+
+input[type="submit"] {
+    background-color: #FFD6BA;
+    color: #3A2C1C;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFDCDC;
+}
+
+.add-post-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFE8CD;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.add-post-form h1 {
+    text-align: center;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+
+.add-post-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #3A2C1C;
+}
+
+.add-post-form input[type="text"],
+.add-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #FFF2EB;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.add-post-form input[type="submit"] {
+    background-color: #FFD6BA;
+    color: #3A2C1C;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.add-post-form input[type="submit"]:hover {
+    background-color: #FFDCDC;
+    transform: scale(1.03);
+}
+
+.add-post-form .error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+

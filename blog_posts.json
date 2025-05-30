@@ -1,0 +1,23 @@
+[
+    {
+        "id": 3,
+        "author": "Maria Gonz\u00e1lez",
+        "title": "Book vs. Movie: The Great Gatsby",
+        "content": "Fitzgerald\u2019s novel is layered with symbolism and prose that the film adaptation can\u2019t quite capture. Let\u2019s dive into what makes the book a literary classic beyond its glitz and glamor.\r\n\r\n",
+        "likes": 8
+    },
+    {
+        "id": 4,
+        "author": "Jane Smith",
+        "title": "The Timeless Magic of Tolkien",
+        "content": "J.R.R. Tolkien's works, especially The Lord of the Rings, continue to inspire generations. This post explores how his rich world-building and languages reshaped modern fantasy literature.",
+        "likes": 6
+    },
+    {
+        "id": 5,
+        "author": "Diana Gabaldon",
+        "title": "The Outlander",
+        "content": "Outlander is a series of historical fantasy novels by American author Diana Gabaldon.",
+        "likes": 4
+    }
+]
