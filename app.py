@@ -1,5 +1,4 @@
 from json_data import load_posts, add_post, delete_post, update_post, fetch_post_by_id, save_posts
-
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)

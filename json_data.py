@@ -40,7 +40,6 @@ def add_post(author: str, title: str, content: str):
         'title': title,
         'content': content,
         'likes': 0
-
     }
 
     posts.append(new_post)
@@ -59,6 +58,7 @@ def fetch_post_by_id(post_id: int):
     posts = load_posts()
     return next((post for post in posts if post['id'] == post_id), None)
 
+
 def update_post(post_id: int, author: str, title: str, content: str):
     """Update an existing post with new data."""
     posts = load_posts()
@@ -69,5 +69,3 @@ def update_post(post_id: int, author: str, title: str, content: str):
             post['content'] = content
             break
     save_posts(posts)
-
-
