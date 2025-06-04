@@ -4,20 +4,41 @@
         "author": "Maria Gonz\u00e1lez",
         "title": "Book vs. Movie: The Great Gatsby",
         "content": "Fitzgerald\u2019s novel is layered with symbolism and prose that the film adaptation can\u2019t quite capture. Let\u2019s dive into what makes the book a literary classic beyond its glitz and glamor.\r\n\r\n",
-        "likes": 8
+        "likes": 10
     },
     {
         "id": 4,
         "author": "Jane Smith",
         "title": "The Timeless Magic of Tolkien",
         "content": "J.R.R. Tolkien's works, especially The Lord of the Rings, continue to inspire generations. This post explores how his rich world-building and languages reshaped modern fantasy literature.",
-        "likes": 7
+        "likes": 8
     },
     {
         "id": 5,
         "author": "Diana Gabaldon",
         "title": "The Outlander",
         "content": "Outlander is a series of historical fantasy novels by American author Diana Gabaldon.",
+        "likes": 8
+    },
+    {
+        "id": 6,
+        "author": "Alice Johnson ",
+        "title": "Embracing the Quiet",
+        "content": "In this post, I reflect on the importance of silence and solitude in our fast-paced world. Sometimes the best way to recharge is to simply disconnect.",
+        "likes": 4
+    },
+    {
+        "id": 7,
+        "author": "Michael Chen",
+        "title": "Lessons from the Mountains",
+        "content": "After a week of hiking in the Rockies, I\u2019ve come back with a new appreciation for nature\u2019s ability to teach resilience, patience, and clarity.",
+        "likes": 8
+    },
+    {
+        "id": 8,
+        "author": "Sara Lopez",
+        "title": "The Power of Daily Writing",
+        "content": "Writing every day for just 15 minutes has transformed the way I think, plan, and express myself. Here's how you can start your own daily writing habit.",
         "likes": 7
     }
 ]

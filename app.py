@@ -3,10 +3,10 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
     blog_posts = load_posts()
-    print(blog_posts)
     return render_template('index.html', posts=blog_posts)
 
 
@@ -27,7 +27,7 @@ def add():
     return render_template('add.html')
 
 
-@app.route('/delete/<int:post_id>')
+@app.route('/delete/<int:post_id>', methods=['POST'])
 def delete(post_id):
     delete_post(post_id)
     return redirect(url_for('index'))

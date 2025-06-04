@@ -4,6 +4,7 @@ from typing import List, Dict
 
 BLOG_POSTS_FILE = 'blog_posts.json'
 
+
 def load_posts() -> List[Dict]:
     """Load all blog posts from the JSON file."""
     if not os.path.exists(BLOG_POSTS_FILE):
